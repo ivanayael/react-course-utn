@@ -1,36 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\icurra\\Desktop\\React-NetCore\\curso\\clase5vectores\\clase5vectores.csproj": {}
+    "C:\\dev\\codigocodereactnetcore\\reactnetcorecodigocode\\clase5vectores\\clase5vectores.csproj": {}
   },
   "projects": {
-    "C:\\Users\\icurra\\Desktop\\React-NetCore\\curso\\clase5vectores\\clase5vectores.csproj": {
+    "C:\\dev\\codigocodereactnetcore\\reactnetcorecodigocode\\clase5vectores\\clase5vectores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\icurra\\Desktop\\React-NetCore\\curso\\clase5vectores\\clase5vectores.csproj",
+        "projectUniqueName": "C:\\dev\\codigocodereactnetcore\\reactnetcorecodigocode\\clase5vectores\\clase5vectores.csproj",
         "projectName": "clase5vectores",
-        "projectPath": "C:\\Users\\icurra\\Desktop\\React-NetCore\\curso\\clase5vectores\\clase5vectores.csproj",
-        "packagesPath": "C:\\Users\\icurra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\icurra\\Desktop\\React-NetCore\\curso\\clase5vectores\\obj\\",
+        "projectPath": "C:\\dev\\codigocodereactnetcore\\reactnetcorecodigocode\\clase5vectores\\clase5vectores.csproj",
+        "packagesPath": "C:\\Users\\dante.panella\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\codigocodereactnetcore\\reactnetcorecodigocode\\clase5vectores\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\icurra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dante.panella\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -41,7 +40,7 @@
         }
       },
       "frameworks": {
-        "net5.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -57,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.3.20216.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
