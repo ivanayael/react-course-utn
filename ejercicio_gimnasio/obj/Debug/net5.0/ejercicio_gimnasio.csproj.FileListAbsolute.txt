@@ -1,0 +1,13 @@
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\obj\Debug\net5.0\ejercicio_gimnasio.csprojAssemblyReference.cache
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\obj\Debug\net5.0\ejercicio_gimnasio.AssemblyInfoInputs.cache
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\obj\Debug\net5.0\ejercicio_gimnasio.AssemblyInfo.cs
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\obj\Debug\net5.0\ejercicio_gimnasio.csproj.CoreCompileInputs.cache
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\bin\Debug\net5.0\ejercicio_gimnasio.exe
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\bin\Debug\net5.0\ejercicio_gimnasio.deps.json
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\bin\Debug\net5.0\ejercicio_gimnasio.runtimeconfig.json
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\bin\Debug\net5.0\ejercicio_gimnasio.runtimeconfig.dev.json
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\bin\Debug\net5.0\ejercicio_gimnasio.dll
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\bin\Debug\net5.0\ejercicio_gimnasio.pdb
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\obj\Debug\net5.0\ejercicio_gimnasio.dll
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\obj\Debug\net5.0\ejercicio_gimnasio.pdb
+C:\Users\icurra\Desktop\React-NetCore\curso\ejercicio_gimnasio\obj\Debug\net5.0\ejercicio_gimnasio.genruntimeconfig.cache
