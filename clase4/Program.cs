@@ -5,6 +5,7 @@ namespace clase4
     class Program
     {
 
+
         static void Main(string[] args)
         {
             Console.WriteLine("Creando peliculas");
@@ -12,27 +13,27 @@ namespace clase4
             // Toda clase abstra no se puede instanciar a si misma
             // variable de forma estatica   ----> new ---> instancia en memoria
 
-            Movie movie1 = new Horror();
+            // Pelicula peli1 = new Terror();
 
-            movie1.name = "Pixel";
+            // peli1.nombre = "Pixel";
 
-            Console.WriteLine(" type  " + movie1.GetType().Name + " nombre de la pelicula " + movie1.name);
+            // Console.WriteLine(" tipo  " + peli1.GetType().Name + " nombre de la pelicula " + peli1.nombre);
 
-            Console.WriteLine("Corregimos el error de catalogar a la peli");
+            // Console.WriteLine("Corregimos el error de catalogar a la peli");
             
-            movie1 = new Comedy(); // generar el nuevo espacio en memoria ---> todos sus atributos son nulos o vacios 
+            // peli1 = new Comedia(); // generar el nuevo espacio en memoria ---> todos sus atributos son nulos o vacios 
             
-            movie1.name = "Pixel";
+            // peli1.nombre = "Pixel";
 
-            Console.WriteLine(" tipo  " + movie1.GetType().Name + " nombre de la pelicula " + movie1.name);
+            // Console.WriteLine(" tipo  " + peli1.GetType().Name + " nombre de la pelicula " + peli1.nombre);
 
-            movie1.RollCredits();
+            // peli1.mostrarCreditos();
 
-            MovieController pc = new MovieController();
+            PeliculaControlador pc = new PeliculaControlador();
 
-            Movie newmovie= pc.createMovie(Genre.Horror);
+            Pelicula peli2= pc.creoPelicula(Genero.TERROR);
 
-            Console.WriteLine(newmovie.GetType().Name);
+            Console.WriteLine(peli2.GetType().Name);
         }
 
     }

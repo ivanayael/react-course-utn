@@ -4,58 +4,68 @@ namespace clase3
 {
     class Program
     {
-       static void Main(string[] args)
+   
+ 
+
+        static void Main(string[] args)
         {
+            
 
-            Console.WriteLine("View Layer");
-            Console.WriteLine("My second app in c# netCore");
+            Console.WriteLine("Capa Vista");
+            Console.WriteLine("Mi segunda aplicacion en c# netCore");
 
-            Pizza p1 = new Pizza("mold", "tomato", "muzzarella", 20.5); // crear objetos
-            Pizza p3 = crearPizza("mold", "tomato", "fontina cheese", 20.5);
+
+            Pizza p1 = new Pizza("molde", "tomate", "muzzarella", 20.5); // crear objetos
+            Pizza p3 = crearPizza("molde", "tomate", "queso fontina", 20.5);
+
 
             Console.WriteLine(idintificoPizza(p1));
             Console.WriteLine(idintificoPizza(p3));
 
 
             Muzzarela m1 = new Muzzarela();
-            m1.mazzaType = "piedra";
-            m1.ingredient1 = "jam";
-            m1.ingredient2 = "muzarella";
+            m1.tipoMaza = "piedra";
+            m1.ingrediente1 = "arroz";
+            m1.ingrediente2 = "muzarella";
 
-            m1.cook(20.0);
+            m1.cocionar(20.0);
 
             // factoria abstract ---> factoria de metodos
             Pizza p4 = new Muzzarela();
 
+
+
+
+
         }
 
 
-        public static string idintifyPizza(Pizza pizza)
+        public static string idintificoPizza(Pizza pizza)
         {
-            string result = "I don't know what kind of pizza is :(";
+            string resultado = "No tengo idea de que pizza es :(";
 
             // aplicar condiciones para resolver o deducir de que tipo es la pizza
-            if (pizza.mazzaType == "mold" && pizza.ingredient2 == "muzzarella")
+            if (pizza.tipoMaza == "molde" && pizza.ingrediente2 == "muzzarella")
             {
-                result = "Big muzzarella";
+                resultado = "Grande de muzza";
             }
-            return result;
+            return resultado;
         }
 
 
         // como se construye la pizza
 
         // Builder 
-        public static Pizza createPizza(string mazzaType, string ingredient1, string ingredient2, double size)
+        public static Pizza crearPizza(string tipoMaza, string ingrediente1, string ingrediente2, double tamano)
         {
             
             // void hace referencia a un proceso 
             Pizza pizza = new Pizza(); // <--- Creo la pizza
 
-            pizza.mazzaType = mazzaType;
-            pizza.ingredient1 = ingredient1;
-            pizza.ingredient2 = ingredient2;
-            pizza.size = size;
+            pizza.tipoMaza = tipoMaza;
+            pizza.ingrediente1 = ingrediente1;
+            pizza.ingrediente2 = ingrediente2;
+            pizza.tamano = tamano;
 
             return pizza;
 

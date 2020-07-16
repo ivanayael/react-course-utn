@@ -7,23 +7,25 @@ namespace clase3
     {
 
         // encapsulamiento
-        public string mazzaType { get; set; } // pieda , medio molde , molde 
+        public string tipoMaza { get; set; } // pieda , medio molde , molde 
 
-        public double size { get; set; }
+        public double tamano { get; set; }
 
-        public string ingredient1 { get; set; }
-        public string ingredient2 { get; set; }
+        public string ingrediente1 { get; set; }
+        public string ingrediente2 { get; set; }
 
 
         // constructores --> es decir como se inicializa el objeto
         /*
             Debe tener el mismo nombre de la clase pero no debe tener nombre de un metodo
+
+
         */
-        public Pizza(string mazzaType, string ingredient1, string ingredient2, double size){
-            this.mazzaType = mazzaType;
-            this.ingredient1=ingredient1;
-            this.ingredient2=ingredient2;
-            this.size=size;
+        public Pizza(string tipoMaza, string ingrediente1, string ingrediente2, double tamano){
+            this.tipoMaza = tipoMaza;
+            this.ingrediente1=ingrediente1;
+            this.ingrediente2=ingrediente2;
+            this.tamano=tamano;
         }
 
         // sobrecarga de constructor
